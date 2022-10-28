@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+    background-color: #eee; 
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+figure {
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#caption {
+    padding: 15px;
+}
+
+#heading {
+    text-align: center;
+    padding: 15px;
+}
+
+#list {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#list li {
+  line-height: 30px;  
+}
+
+#quote {
+    font-style: oblique;
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+  
