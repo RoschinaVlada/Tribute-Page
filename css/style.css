@@ -9,8 +9,29 @@ body {
     padding-bottom: 20px;
 }
 
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  } 
+
 h1, p {
     text-align: center;
+}
+
+@media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    
 }
 
 figure {
@@ -23,6 +44,12 @@ figure {
 #caption {
     padding: 15px;
 }
+
+@media (max-width: 460px) {
+    #caption {
+      font-size: 1.4rem;
+    }
+  }
 
 #heading {
     text-align: center;
