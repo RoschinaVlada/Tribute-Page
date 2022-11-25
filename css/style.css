@@ -9,6 +9,10 @@ body {
     padding-bottom: 20px;
 }
 
+.paragraph {
+    padding: 15px;
+}
+
 @media (max-width: 460px) {
     #main {
       margin: 0;
